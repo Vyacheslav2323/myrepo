@@ -23,12 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ov($f=2*2&gmsuuuo$sfulb205o)*g_w604=)dx0(jvc3l0*oq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['myrepo-dwig.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['vocabapp-l7tj.onrender.com', 'localhost', '127.0.0.1']
 
-
-
+import os
+print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
 
 # Application definition
 
